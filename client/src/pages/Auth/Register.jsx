@@ -23,7 +23,7 @@ const Register = () => {
         password,
         phone,
         address,
-        answer
+        answer,
       });
       if (res && res.data.success) {
         toast.success(res.data && res.data.message);
@@ -98,7 +98,6 @@ const Register = () => {
               required
             />
           </div>
-
           <div className="mb-3">
             <input
               type="text"
@@ -106,15 +105,10 @@ const Register = () => {
               onChange={(e) => setAnswer(e.target.value)}
               className="form-control"
               id="exampleInputEmail1"
-              placeholder="Enter Your favorite Sport Name "
+              placeholder="What is Your Favorite sports"
               required
             />
           </div>
-
-
-
-
-
           <button type="submit" className="btn btn-primary">
             REGISTER
           </button>
