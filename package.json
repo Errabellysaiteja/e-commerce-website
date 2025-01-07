@@ -15,6 +15,7 @@
   "description": "e-commerce-rest-api",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "braintree": "^3.26.0",
     "colors": "^1.4.0",
     "concurrently": "^9.1.2",
     "cors": "^2.8.5",
