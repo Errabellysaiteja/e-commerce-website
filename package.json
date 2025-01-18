@@ -14,6 +14,7 @@
   "license": "saiteja",
   "description": "e-commerce-rest-api",
   "dependencies": {
+    "antd": "^5.23.0",
     "bcryptjs": "^2.4.3",
     "braintree": "^3.26.0",
     "colors": "^1.4.0",

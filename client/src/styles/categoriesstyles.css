@@ -1,0 +1,60 @@
+/* Restrict styles to the Categories component using a unique class */
+.categories-page {
+    padding: 20px;
+  }
+  
+  /* Row styling */
+  .categories-page .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Add space between columns */
+  }
+  
+  /* Individual category card */
+  .categories-page .col-md-6 {
+    flex: 1 1 calc(50% - 20px); /* Adjust size for responsive design */
+    max-width: 300px;
+    margin: 10px auto; /* Center on small screens */
+  }
+  
+  /* Button styling */
+  .categories-page .btn {
+    display: block;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradient for modern look */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+  }
+  
+  /* Hover effects */
+  .categories-page .btn:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb); /* Reverse gradient */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px); /* Lift effect */
+  }
+  
+  /* Add some space between categories */
+  .categories-page .mt-5 {
+    margin-top: 20px;
+  }
+  
+  .categories-page .mb-3 {
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive gap adjustments */
+  .categories-page .gx-3 {
+    gap: 1rem;
+  }
+  
+  .categories-page .gy-3 {
+    gap: 1rem;
+  }
+  
